@@ -1,0 +1,7 @@
+venv*
+__pycache__
+reports
+allure-results
+node_modules
+Screenshots
+.idea

@@ -1,0 +1,35 @@
+version: '3.3'
+services:
+    workoutgateway:
+        ports:
+            - '8000:8000'
+        environment:
+            - 'RUN_CONTROLLER_URL=http://runcontroller:8080'
+        build: workoutgateway
+    runcontroller:
+        ports:
+            - '9080:8080'
+        environment:
+            - 'REDIS_HOST=redis'
+            - 'REDIS_PASSWORD='
+        build: runcontroller
+    frontend:
+        ports:
+            - '3000:3000'
+        environment:
+            - 'RUN_CONTROLLER_URL=http://runcontroller:8080'
+            - 'PORT=3000'
+        depends_on:
+            - workoutgateway
+        build:
+            context: frontend
+            dockerfile: Dockerfile.build
+    redis:
+      image: redis:7.0.12-alpine
+    selenium:
+        ports:
+            - '4444:4444'
+        shm_size: 2g
+        extra_hosts:
+            - "host.docker.internal:host-gateway"
+        image: selenium/standalone-firefox:116.0
