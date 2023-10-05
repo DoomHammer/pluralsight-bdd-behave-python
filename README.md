@@ -2,7 +2,7 @@
 
 This repository is for the Pluralsight course BDD with Behave and Python. The license is Apache 2.0.
 
-[![Course overview screenshot]()](https://doomhammer.info/l/courses/bdd-with-behave-and-python)
+[![BDD with Behave and Python]()](https://doomhammer.info/l/courses/bdd-with-behave-and-python)
 
 ## Table of Contents
 
