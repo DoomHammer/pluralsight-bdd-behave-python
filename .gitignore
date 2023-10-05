@@ -5,3 +5,4 @@ allure-results
 node_modules
 Screenshots
 .idea
+jenkins_home

@@ -1,0 +1,5 @@
+[
+  {"kind" : "running", "begin": 1200, "end": 1300, "intensity": 64},
+  {"kind" : "swimming", "begin": 1200, "end": 1300, "intensity": 64},
+  {"kind" : "jumping", "begin": 1200, "end": 1300, "intensity": 64}
+]
