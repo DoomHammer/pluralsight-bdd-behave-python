@@ -1,8 +1,8 @@
-# BDD with Behave and Python
+# Behavior-driven Development (BDD) with Behave and Python
 
-This repository is for the Pluralsight course BDD with Behave and Python. The license is Apache 2.0.
+This repository is for the Pluralsight course Behavior-driven Development (BDD) with Behave and Python. The license is Apache 2.0.
 
-[![BDD with Behave and Python](https://github.com/DoomHammer/pluralsight-courses/assets/695373/384dc47d-ce6a-49cd-9a03-8ef115b307bf)](https://doomhammer.info/l/courses/bdd-with-behave-and-python)
+[![BDD with Behave and Python](https://github-production-user-asset-6210df.s3.amazonaws.com/695373/273664915-384dc47d-ce6a-49cd-9a03-8ef115b307bf.png)](https://doomhammer.info/l/courses/bdd-with-behave-and-python)
 
 ## Table of Contents
 
